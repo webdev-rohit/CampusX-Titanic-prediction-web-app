@@ -1,5 +1,6 @@
 import streamlit as st
-from pred_backend import predict
+# from pred_backend import predict # for doing predictions using backend without pipelining feature
+from pred_backend_with_pipeline import predict # for doing predictions using backend with pipelining feature
 
 # Set layout to wide
 st.set_page_config(layout="wide")
